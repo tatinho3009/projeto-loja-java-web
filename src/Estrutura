@@ -1,0 +1,22 @@
+Estrutura de Classes
+
+#Model
+    Id;
+
+#Produto
+    Nome;
+    Descrição;
+    Preco de Custo;
+    Preço de Venda;
+    Preço Promocional;
+    Quantidade;
+    Disponivel(Se Quantidade for 0 não exibe o produto no site);
+
+#Camiseta extends Produto
+    Tamanhos;
+
+#Tamanho - Enum
+
+#Variação de Produtos
+    Id da Variação;
+    Id do Produto;
